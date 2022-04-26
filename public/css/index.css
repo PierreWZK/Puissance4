@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #1d3557;
+}
+
+#chat {
+    overflow: scroll;
+}
+
+h6 {
+    font-size: 35px;
+    font-family: "Cooper Black";
+    background-color: #2A5A8A;
+    color: white;
+    padding: 15px;
+}
+
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#cell {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#wonText {
+    font-size: 30px;
+    text-align: center;
+    color: Red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: Bold;
+}
+
+input {
+    font-size: 30px;
+    text-align: center;
+}
+
+#replayButton {
+    font-size: 30px;
+    margin-top: 15px;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+table {
+    position: relative;
+    margin: auto;
+    margin-top: 45px;
+}
+
+#playerTurn {
+    text-align: center;
+    font-family: "Cooper Black";
+    font-size: 75px;
+    margin-top: 20px;
+    color: #FD5A5A;
+}
+
+#replayButton {
+    margin: 0;
+    position: relative;
+    top: 12%;
+    left: 50%;
+    -ms-transform: translate(-50%, 12%);
+    transform: translate(-50%, 12%);
+    font-family: "Cooper Black";
+    width: 250px;
+    color: white;
+    background-color: #FD5A5A;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+td {
+    width: 100px;
+    min-width: 50px;
+    height: 100px;
+}
+
+td button {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: inherit;
+}
+
+
+/* 
+a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#download {
+    border: 5px solid transparent;
+
+    width: 70%;
+    margin: auto;
+    transition: ease-in-out 0.5s;
+}
+
+#download:hover {
+    border: 5px solid yellow;
+    transform: scale(1.05);
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#nombreDeJoueur {
+    color: gold;
+    font-size: 35px;
+} */
+
+h4 {
+    z-index: 15;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+#chatGlobal {
+    position: absolute;
+    top: 22.5%;
+    left: 2%;
+    width: 400px;
+}
+
+#messageForm {
+    position: relative;
+}
+
+#messageForm input {
+    width: 300px;
+    height: 50px;
+    background-color: #2A5A8A;
+    border: none;
+    color: white;
+    border-right: solid 1px white;
+}
+
+#messageForm input:focus {
+    outline: none;
+    background-color: #3168a0;
+}
+
+#messageForm button {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #2A5A8A;
+    border: none;
+    color: white;
+    font-family: "Cooper Black";
+    position: absolute;
+}
+
+@media screen and (max-width: 1580px) {
+    #chatGlobal {
+        width: 200px;
+    }
+    #messageForm input {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #chatGlobal {
+        width: 200px;
+        display: none;
+    }
+    #messageForm input {
+        width: 150px;
+    }
+    #Joueur h3 {
+        display: none;
+    }
+}
+
+#chat {
+    background: cadetblue;
+    height: 550px;
+    background-color: #D9D9D9;
+    overflow-x: hidden;
+}
+
+#chat ul {
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#chat li {
+    background-color: white;
+    color: black;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    padding-left: 15px;
+    font-family: "Arial", Helvetica, sans-serif;
+    word-break: break-all;
+}
+
+h5 {
+    background-color: white;
+    color: #FD5A5A;
+    font-size: 25px;
+    font-family: "Cooper Black", Helvetica, sans-serif;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-top: solid black 2px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border: 2px solid white;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2A5A8A;
+}
+
+#Joueur {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    font-size: 28px;
+    color: white;
+    font-family: "Cooper Black";
+}
+
+#nombreDeJoueur {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 15px;
+    color: #FD5A5A;
+}
+
+table {
+    border: none;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+td {
+    width: 100px;
+    min-width: 50px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(250, 250, 250, 0.5);
+}
+
+td button {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: inherit;
+    border-radius: 50px;
+    border: none;
+}
+
+#wonText {
+    position: relative;
+    left: 45%;
+    top: 50%;
+}
