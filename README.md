@@ -1,4 +1,4 @@
-# Puissance4Js_Multi
+# Puissance4Js
 Ce projet est un puissance 4 dévelopée en HTML/CSS/JS par Jimmy et Pierre dans le cadre d'un TP
 
 Pour pouvoir jouée il vous faut node-js puis vous rendre dans a la racine du dossier
