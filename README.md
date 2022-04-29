@@ -10,3 +10,6 @@ localhost:5000
 
 Le mode solo se trouve dans le dossier public solo 
 Le serveur est gérer avec le script server.js et le client par le script client.js
+Il faut donc héberger le serveur avec le script sur un hebergeur.
+
+Remarque : Vous pouvez toujours lancer le mode solo.
